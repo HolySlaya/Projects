@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="sytlesheet" href="Project2.css">
+    
+  </head>
+  
+    <body>
+      <div id="roomOne">
+      <input type="text" id="checkingIn1">
+      <button onclick="addGuestOne()">Check in</button>
+      <ol>
+      </ol>
+      </div>
+      
+      <script>
+      function addGuestOne() {
+        var addGuest = document.getElementById('CheckingIn1').value;
+        document.getElementById('CheckingIn1').value = "";
+        var newList = document.createElement('li');
+        var newText = document.createTextNode(addGuest);
+        newList.appendChild(newText);
+        var position = document.getElementsByTagName('ol')[0];
+        position.appendChild(newList);
+      }
+      </script>
+      
+    </body>
+  
+</html>
