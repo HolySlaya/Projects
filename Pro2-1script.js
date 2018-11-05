@@ -23,5 +23,5 @@ function addGuestOne() {
 
 function checkout() {
   total -= 1;
-  document.getElementById('output').innerHTML = score;
+  document.getElementById('output').innerHTML = total;
 }
