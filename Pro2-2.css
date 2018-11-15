@@ -15,3 +15,39 @@
   overflow: scroll;
   float:left;
 }
+
+#roomThree {
+  background-color: blue;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  overflow: scroll;
+  float: left;
+}
+
+#roomFour {
+  background-color: blue;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  overflow: scroll;
+  float:left;
+}
+
+#roomFive {
+  background-color: blue;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  overflow: scroll;
+  float: left;
+}
+
+#roomSix {
+  background-color: blue;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  overflow: scroll;
+  float:left;
+}
